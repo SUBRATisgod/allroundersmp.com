@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALLROUNDERSMP - ALLROUNDER</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+
+        header {
+            background-color: #3498db;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: center;
+        }
+
+        a {
+            margin: 0 20px;
+            cursor: pointer;
+            color: #ecf0f1;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+
+        header {
+            background-color: #3498db;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: center;
+        }
+
+        a {
+            margin: 0 20px;
+            cursor: pointer;
+            color: #ecf0f1;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #00aeff;
+        }
+
+        section {
+            padding: 20px;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        footer {
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 98.5%;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ALLROUNDER</h1>
+    </header>
+
+    <nav>
+        <div class="tabs">
+            <a href="index.html">Home</a>
+            <a href="games.html">Ranks</a>
+            <a href="about.html">ALLROUNDER</a>
+            <a href="contact.html">IP and PORT</a>
+            <a href="support.html">YOUTUBERS</a>
+            <a href="ranked.html">Ranked Bedwars</a>
+        </div>
+    </nav>
+
+    <section>
+        <h2>ALLROUNDERSMP</h2>
+        <p>Learn more about ALLROUNDERSMP, our mission, and the dedicated team behind it.</p>
+    </section>
+    <br>This is the official website of the <strong>ALLROUNDERSMP</strong> and here you can share the experience about the <br>
+    server performance,gameplay and other many more. This is the just beggining of this server , there is many<br>
+    more to do. This server is just a normal <strong>"SMP"</strong> and we are going to release our minigames <br>
+    server as well. In that server we can play many of the minigames especially <strong>"BEDWARS"</strong> so stay<br>
+    tuned for that server too.
+    <BR>
+   Let's play ALLROUNDERSMP
+    <footer id="site-footer">
+        <div class="social-icons">
+            <a href="https://discord.gg/Xa6etjvwPk" target="_blank">DISCORD</a>
+            <!-- Add more social media icons as needed -->
+        </div>
+   </footer>
+   <script>
+    // Add an event listener for scrolling
+    window.addEventListener('scroll', function() {
+        // Check the scroll position
+        var scrollPosition = window.scrollY;
+
+        // Set a threshold for when to show the footer
+        var showThreshold = 300;
+
+        // Toggle the "show-footer" class based on the scroll position
+        if (scrollPosition > showThreshold) {
+            document.getElementById('site-footer').classList.add('show-footer');
+        } else {
+            document.getElementById('site-footer').classList.remove('show-footer');
+        }
+    });
+</script>
+</body>
+</html>
